@@ -8,7 +8,7 @@
             "name": "mock_data_generator",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}/mock_data_generator.py",
+            "program": "${workspaceFolder}/src/clean_fake_data.py",
             "console": "integratedTerminal"
         }
     ]

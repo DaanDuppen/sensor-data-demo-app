@@ -10,6 +10,17 @@
             "request": "launch",
             "program": "${workspaceFolder}/src/clean_fake_data.py",
             "console": "integratedTerminal"
-        }
+        },
+        {
+            "name": "Python: Streamlit",
+            "type": "python",
+            "request": "launch",
+            "module": "streamlit.cli",
+            "args": [
+            "run",
+            "app.py",
+            // "${file}",
+            ],
+            }
     ]
 }
